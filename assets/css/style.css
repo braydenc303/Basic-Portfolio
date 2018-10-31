@@ -1,17 +1,33 @@
 body {
     width: 920px;
     margin: auto;
+    background-image: url("../images/gravel.png");
+    background-repeat: repeat;
 }
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
-    color: #ffffff
+    color: #ffffff;
+    display: inline;
+}
+
+header {
+    background: #ffffff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    float: right;
+    padding: 10px;
+}
+
+.wrapper {
+    background: #ffffff;
 }
 
 h2 {
@@ -32,6 +48,7 @@ hr {
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    background: #ffffff;
 }
 
 label {

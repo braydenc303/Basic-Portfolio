@@ -162,6 +162,9 @@ footer {
 }
 
 @media (max-width: 980px) {
+    header {
+        width: 960;
+    }
     h1 {
       margin-left: 20px;
     }

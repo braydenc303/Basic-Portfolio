@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Brayden Copley-Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <header>
-            <h1>Brayden Copley</h1>
-            <div class="navbar">
-                    <ul>
-                        <li><a class="nav" href="contact.html">Contact</a></li>
-                        <li><a class="nav" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav" href="index.html">About</a></li>
-                    </ul>
-                </div>
+        <header id = "masthead">
+            <div class="container">
+                <a href = "index.html" id="logo">Brayden Copley</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
-        <div class="wrapper">
-        <h2>Contact</h2>
-        <div class="divider"></div>
+        <div id = "mainContainer" class="container">
+            <section class = "mainSection">
+            <h2>Contact</h2>
             <form>
                 <label for="Name">Name</label><br>
                 <input type="text" id="Name"><br>
@@ -28,6 +28,7 @@
                 <textarea rows="4" cols="50" id="Message"></textarea><br>
             </form>
             <button>Submit</button>
+        </section>
         </div>
         <footer>Copyright &copy;</footer>
 
